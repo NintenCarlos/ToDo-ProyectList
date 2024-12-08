@@ -1,0 +1,90 @@
+.numberOf {
+  font-size: 800%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.titleDashboard {
+  color: #54bcf4;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subtitleDashboardText {
+  font-size: 20px;
+  color: #fff;
+}
+
+.subtitleDashboard {
+  text-align: center;
+  font-size: 28px;
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.containerDashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.cardsDashboard {
+  width: 70%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff !important;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbarDashboard {
+  background-color: #333;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarDashboard .navbarBrand {
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  font-weight: bold;
+  padding: 6px 12px;
+}
+
+.navbarDashboard .signOut {
+  color: white !important;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #ff4d4d;
+}
+
+.navbarDashboard .signOut:hover {
+  background-color: #e44d4d;
+  cursor: pointer;
+}
+
+.signOut {
+  color: white;
+  padding: 6px 50px;
+  border-radius: 5px;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.signOut:hover {
+  cursor: pointer;
+}

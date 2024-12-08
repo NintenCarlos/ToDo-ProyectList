@@ -1,0 +1,40 @@
+.title {
+  color: #54bcf4 !important;
+  font-size: 32px !important;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #54bcf4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3ca2d0;
+  color: white;
+}
+
+.card {
+  width: 100%;
+  padding: 5px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.miniCards {
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.cardTaskTitle {
+  color: darkslategrey !important;
+  font-weight: bold; 
+}
